@@ -1,0 +1,26 @@
+@import "/src/components/pokemons";
+@import "/src/components/-color.scss";
+nav {
+    color: $blue;
+    font-size: 25px;
+    text-align: center;
+}
+.sidebar {
+text-align: left;
+font-size-adjust: 25px;
+background-color: darkgray;
+margin-top: solid 20px;
+margin-right: solid 20px;
+        
+
+
+}
+button.nav-item nav-btn {
+    font-size-adjust: 14px;
+    color: red;
+}
+.pokemons {
+    border : 5px;
+    display : grid;
+    grid-template-columns: 200px 200px 200px;
+}
