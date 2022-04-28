@@ -1,0 +1,10 @@
+@import '/src/Components/colors';
+@import '/src/Components/navbar';
+@import '/src/Components/sidebar';
+*{
+  margin: 0;
+  padding: 0;
+}
+.flex{
+  display: flex;
+}
