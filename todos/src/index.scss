@@ -3,7 +3,19 @@
 @import '/src/TodoSearch.scss';
 @import '/src/color.scss';
 @import '/src/TodoCounter.scss';
+@import '/src/TodoItem.scss';
 *{
   margin : 5px;
   padding:5px;
+
 }
+
+Body{
+  background:linear-gradient(#000097,#c5c5f4);
+  background-repeat: no-repeat;
+  height: 100%;
+  margin:9;
+  background-attachment: fixed;
+}
+
+
