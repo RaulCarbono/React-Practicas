@@ -8,15 +8,15 @@ const Inicio = () => {
     allPokemon(setPokemon)
   }, [])
 
+  if (!pokemon) {
+    return "cargando...!"
+  }
   return (
     <>
-    {pokemon != null ? (
-      pokemon.map(pokemon => (
-       <Pokemon data={pokemon}/>
-      ))
-     ) : ('no hay personajes')}
-
-    
+      {pokemon.results.map((pokemon, index) => (
+       <Pokemon key={index} data={pokemon}/>
+      ))}
+     {console.log(pokemon)}
     </>
   )
 }
